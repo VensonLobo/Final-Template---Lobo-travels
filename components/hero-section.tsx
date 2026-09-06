@@ -160,11 +160,11 @@ export function HeroSection() {
               Experience India at your own rhythm. Zero fixed templates. Purely personalized pacing, chauffeur transfers, and hand-picked heritage suites.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
               <Link
                 href="/destinations"
                 id="hero-explore-destinations-btn"
-                className="bg-[#C5A059] text-[#0A1128] px-8 py-4 font-bold uppercase tracking-widest text-xs sm:text-sm hover:bg-white transition-all shadow-md active:scale-95"
+                className="bg-[#C5A059] text-[#0A1128] px-6 sm:px-8 py-3.5 sm:py-4 font-bold uppercase tracking-widest text-xs sm:text-sm hover:bg-white transition-all shadow-md active:scale-95 whitespace-nowrap text-center"
               >
                 Explore Circuits
               </Link>
@@ -172,12 +172,11 @@ export function HeroSection() {
               <a
                 href={`tel:${COMPANY_DETAILS.phones[0].number}`}
                 id="hero-call-experts-btn"
-                className="border border-white/30 hover:border-[#C5A059] bg-white/5 hover:bg-white/15 px-6 py-4 flex items-center space-x-3 text-white backdrop-blur-xs transition-all active:scale-95 group"
+                className="border border-white/30 hover:border-[#C5A059] bg-white/5 hover:bg-white/15 px-4 sm:px-6 py-3.5 sm:py-4 flex items-center space-x-2 sm:space-x-3 text-white backdrop-blur-xs transition-all active:scale-95 group whitespace-nowrap flex-nowrap shrink-0"
                 title={`Call Lobo Travels Concierge: ${COMPANY_DETAILS.phones[0].display}`}
               >
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <Phone className="w-4 h-4 text-[#C5A059] group-hover:scale-110 transition-transform" />
-                <span className="text-xs uppercase tracking-widest font-semibold group-hover:text-[#C5A059] transition-colors">
+                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#C5A059] shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-xs uppercase tracking-wider sm:tracking-widest font-semibold group-hover:text-[#C5A059] transition-colors whitespace-nowrap">
                   Call Experts: {COMPANY_DETAILS.phones[0].display}
                 </span>
               </a>
