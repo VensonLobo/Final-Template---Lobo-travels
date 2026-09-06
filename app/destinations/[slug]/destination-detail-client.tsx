@@ -304,7 +304,7 @@ export function DestinationDetailClient({
               </div>
 
               <div className="pt-2 text-center text-[11px] text-stone-400">
-                Direct Call: <a href="tel:9811240072" className="text-white hover:text-[#C59B27] font-semibold">9811240072</a>
+                Direct Call: <a href="tel:9312640072" className="text-white hover:text-[#C59B27] font-semibold">9312640072</a>
               </div>
             </div>
           </div>

@@ -202,7 +202,7 @@ export function HomeEnquirySection() {
                         id="home-form-phone"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="e.g. 9811240072"
+                        placeholder="e.g. 9312640072"
                         className="w-full border-b border-gray-200 py-2 text-sm text-[#0A1128] focus:border-[#C5A059] outline-none transition-all bg-transparent"
                       />
                     </div>

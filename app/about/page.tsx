@@ -210,7 +210,7 @@ export default function AboutPage() {
                 <span className="hidden sm:inline text-stone-300">•</span>
                 <span className="flex items-center gap-1.5 font-semibold">
                   <Phone className="w-4 h-4 text-[#C59B27]" />
-                  9811240072
+                  9312640072
                 </span>
               </div>
             </div>

@@ -77,10 +77,10 @@ export function WhyChooseUs() {
 
           <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-wider">
             <a
-              href="tel:9811240072"
+              href="tel:9312640072"
               className="px-4 py-2 border border-white/20 hover:border-[#C5A059] hover:text-[#C5A059] text-white transition-colors"
             >
-              Call +91 98112 40072
+              Call +91 9312640072
             </a>
             <a
               href="https://wa.me/919312640072"

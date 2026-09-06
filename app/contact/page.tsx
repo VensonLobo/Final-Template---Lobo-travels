@@ -266,7 +266,7 @@ export default function ContactPage() {
                           id="contact-form-phone"
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                          placeholder="e.g. 9811240072"
+                          placeholder="e.g. 9312640072"
                           className="w-full px-3.5 py-2.5 bg-stone-50 border border-stone-300 rounded-lg text-sm text-stone-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#C59B27] transition-all"
                         />
                       </div>

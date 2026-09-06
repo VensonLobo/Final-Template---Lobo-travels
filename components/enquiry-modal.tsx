@@ -629,7 +629,7 @@ function EnquiryModalForm({
                   id="enquiry-phone-input"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="e.g. 9811240072"
+                  placeholder="e.g. 9312640072"
                   className="w-full border-b border-stone-300 py-1.5 text-sm text-[#0A1128] focus:border-[#C5A059] outline-none transition-all bg-transparent placeholder:text-stone-400"
                 />
               </div>

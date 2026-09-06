@@ -64,7 +64,7 @@ export const COMPANY_DETAILS = {
   phones: [
     { number: '9312640072', label: 'Bookings & Custom Plans', display: '+91 9312640072' },
     { number: '9891240072', label: 'Customer Support Desk', display: '+91 98912 40072' },
-    { number: '9811240072', label: 'Direct Desk & Bookings', display: '+91 98112 40072' },
+    { number: '9312640072', label: 'WhatsApp & Fast Enquiry', display: '+91 93126 40072', isWhatsApp: true },
   ],
   whatsappNumber: '919312640072',
   hours: 'Mon – Sat: 9:30 AM – 7:30 PM | Sun: By Appointment (24x7 active tour helpline for on-trip guests)',

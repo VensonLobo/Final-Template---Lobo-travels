@@ -368,11 +368,11 @@ export function PackageDetailClient({ pkg, relatedPackages }: Props) {
                   Speak directly to our trip designer:
                 </p>
                 <a
-                  href="tel:9811240072"
+                  href="tel:9312640072"
                   className="inline-flex items-center gap-1.5 text-xs text-[#E5C07B] hover:text-white font-semibold"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  +91 98112 40072 (Bookings)
+                  +91 9312640072 (Bookings)
                 </a>
               </div>
             </div>
